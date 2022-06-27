@@ -1,0 +1,40 @@
+.drawerTitle {
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+}
+
+.drawerChevron {
+    svg {
+        color: white;
+    }
+}
+
+.burgerMenu {
+    &:hover {
+        color: #fe5000;
+    }
+}
+
+.mainDrawer {
+    div:first-child {
+        background-color: #3B434D
+    }
+}
+
+.navBarElement {
+
+    span,
+    .navBarIcon svg {
+        color: white;
+
+    }
+
+    &:hover {
+
+        span,
+        .navBarIcon svg {
+            color: #fe5000;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.mainContainer {
+    max-width: calc(100% - 58px);
+    margin: 0 auto;
+    margin-right: 0;
+    @media (min-width: 998px) {
+        max-width: calc(100% - 64px);
+    }
+ }
+
