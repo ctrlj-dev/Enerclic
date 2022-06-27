@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
-import styles from "./footer.module.css"
+import styles from "./footer.module.scss"
 
 function Copyright() {
   return (
@@ -17,7 +17,7 @@ function Copyright() {
   );
 }
 
-export default function StickyFooter() {
+const StickyFooter = () => {
   return (
     <Box>
       <Box
@@ -36,3 +36,5 @@ export default function StickyFooter() {
     </Box>
   );
 }
+
+export default StickyFooter

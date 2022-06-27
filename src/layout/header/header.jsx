@@ -91,7 +91,7 @@ const Drawer = styled(MuiDrawer, {
   }),
 }));
 
-export default function Header() {
+const Header = () => {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
@@ -177,4 +177,6 @@ export default function Header() {
       </Drawer>
     </Box>
   );
-}
+};
+
+export default Header

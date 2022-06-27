@@ -2,8 +2,8 @@ import { Box, Grid } from "@mui/material";
 import Container from "@mui/material/Container";
 import React from "react";
 import { ChartAreaComponent } from "../component/chart-area.component";
-import StickyFooter from "../layout/footer";
-import Header from "../layout/header";
+import StickyFooter from "../layout/footer/footer";
+import Header from "../layout/header/header";
 import { getRedDataService } from "../services/redDataService";
 import styles from "./home.module.scss";
 
