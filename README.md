@@ -1,46 +1,45 @@
-# Prueba técnica para Eneclic
+# Technical test for Enerclic
 
-La prueba consistiría:
+The test would consist of:
 
-Con la API de Red Eléctrica de España: https://www.ree.es/es/apidatos crear una web con gráficas (maquetación web propia): https://www.ree.es/es/datos/aldia.
+With the Red Eléctrica de España API: https://www.ree.es/es/apidatos create a website with graphics (own web layout): https://www.ree.es/es/datos/aldia.
 
-Requisitos: 
+Requirements: 
 
-Usar Material-UI
-Las gráficas deberán estar hechas en la librería React Apex Chart.
-El diseño puede ser propio, se valora el cuidado del diseño.
-Una vez terminado, lo puedes subir a tu repositorio de GitHub.
-NOTA:  no es necesario usar Next.js, TypeScript ni incluir testing.
+Use Material-UI
+The charts must be made in the React Apex Chart library.
+The design can be your own, care of the design is valued.
+Once finished, you can upload it to your GitHub repository.
+NOTE: you do not need to use Next.js, TypeScript or include testing.
 
-## Comenzando 🚀
+## Getting started 🚀
 
-Para lanzar el proyecto, simplemente haz npm install.
+To launch the project, simply do npm install.
 
- Luego usa el siguiente comando para lanzar el proyecto:
+ Then use the following command to launch the project:
  
-    - npm start: Lanza el proyecto en una versión de desarrollo.
+    - npm start: Launch the project in a development version.
 
-### Trabajo realizado 📋
+### Work done 📋
 
-Se ha realizado una pantalla con Material-UI que consta de un layout con header y footer y un componente para generar gráficas
-según unas props.
+A screen has been made with Material-UI consisting of a layout with header and footer and a component to generate charts.
 
-### Componentes y estructura 🔧
+### Components and structure 🔧
 
-Se ha creado un componente que acepta de manera genérica algunas props y permite funcionar con algunos de los tipos de gráficas
-que ofrece React Apex Chart, como donut, line, area o bar. 
+A component has been created that accepts in a generic way some props and allows to work with some of the types of charts
+offered by React Apex Chart, such as donut, line, area or bar. 
 
-## Herramientas ⚙️
+## Tools ⚙️
 
-Para funciones genéricas, he creado un archivo tools donde hay algunas funciones usadas en el proyecto.
+For generic functions, I have created a tools file where there are some functions used in the project.
 
-### Estilos 🔩
+### Styles 🔩
 
-Para dar estilos CSS, se ha usado SCSS, creando estructuras anidadas cuando es necesario.
+For CSS styling, SCSS has been used, creating nested structures when necessary.
 
 ### API ⌨️
 
-Para la llamada a la API se ha separado en un archivo aparte, en la carpeta services. Se ha creado una función 
-para llamar a la API de la REE que acepta todos los parametros de dicha API.
+For the API call, it has been separated in a separate file, in the services folder. A function has been created 
+function has been created to call the REE API that accepts all the parameters of the REE API.
 
 
