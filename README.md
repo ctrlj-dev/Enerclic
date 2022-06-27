@@ -1,4 +1,4 @@
-# Technical test for Enerclic
+# Technical assigment for Enerclic
 
 The test would consist of:
 
